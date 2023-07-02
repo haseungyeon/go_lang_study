@@ -92,6 +92,7 @@ service GreetService {
 |data structure  |protocol buffers|JSON                  |
 |HTTP version    |HTTP2           |HTTP1                 |
 |transport method|streaming       |Unary                 |
-|communications  |Bi directional  |Cline->Server         |
+|communications  |Bi directional  |Client->Server         |
 |schema          |Free design     |GET/POST/UPDATE/DELETE|
+
 => 또한 HTTP2는 HTTP1에 비해 보안 측면에서 더 안정적이며 전송되는 데이터 규격이 자유롭지만 데이터 타입과 크기를 미리 지정하므로 더 strict 하다.
